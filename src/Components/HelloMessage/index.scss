@@ -1,0 +1,25 @@
+.hello-message-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full height */
+    background-color: #fff;
+}
+
+.home {
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), 
+                url('../../Assets/Cuenca-Background.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 70vh;
+}
+
+.bottom {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: red;
+    min-height: 30vh;
+}

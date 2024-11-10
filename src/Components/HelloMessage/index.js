@@ -17,16 +17,16 @@ const HelloMessage = () => {
                     // Same substring at the start will only be typed out once, initially
                         'Kevin Calle: Software Engineer',
                         1000, // wait 1s before replacing "Mice" with "Hamsters"
-                        'Kevin Calle: Computer Science Student',
+                        'Kevin Calle: CS Student',
                         1000,
-                        'Kevin Calle: Lifetime Learner',
+                        'Kevin Calle: Tech Enthusiast',
                         1000,
                         'Kevin Calle: ',
                         1000
                     ]}
                     wrapper="span"
                     speed={50}
-                    style={{ fontSize: '2em', display: 'inline-block' }}
+                    style={{ fontSize: '2em', display: 'flex' }}
                     repeat={Infinity}
                 />
             </motion.div>

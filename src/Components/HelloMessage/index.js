@@ -32,18 +32,16 @@ const HelloMessage = () => {
                 <TypeAnimation
                 key={isMobile ? 'mobile' : 'desktop'}
                     sequence={[
-                    // Same substring at the start will only be typed out once, initially
                         'Kevin Calle: Software Engineer',
-                        1000, // wait 1s before replacing "Mice" with "Hamsters"
+                        1000, 
                         'Kevin Calle: CS Student',
                         1000,
                         'Kevin Calle: Tech Enthusiast',
                         1000,
                         'Kevin Calle: ',
-                        1000
+                        1500
                     ]}
                     wrapper="span"
-                    // style={textStyle}
                     style={{
                         fontSize:'1.5em',
                         display:'flex',
@@ -58,15 +56,14 @@ const HelloMessage = () => {
                     <TypeAnimation
                     key={isMobile ? 'mobile' : 'desktop'}
                     sequence={[
-                    // Same substring at the start will only be typed out once, initially
                         'Kevin Calle: Software Engineer',
-                        1000, // wait 1s before replacing "Mice" with "Hamsters"
+                        1000, // 
                         'Kevin Calle: CS Student',
                         1000,
                         'Kevin Calle: Tech Enthusiast',
                         1000,
                         'Kevin Calle: ',
-                        1000
+                        1500
                     ]}
                     wrapper="span"
                     // style={textStyle}

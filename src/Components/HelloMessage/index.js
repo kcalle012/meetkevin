@@ -26,6 +26,12 @@ const HelloMessage = () => {
                         1000
                     ]}
                     wrapper="span"
+                    style={{
+                        fontSize:'1.5em', 
+                        display:"flex", 
+                        textAlign:"center", 
+                        fontFamily:"Poppins", 
+                        fontWeight:"200"}}
                     speed={50}
                     repeat={Infinity}
                 />

@@ -27,7 +27,6 @@ const HelloMessage = () => {
                     ]}
                     wrapper="span"
                     speed={50}
-                    style={{ fontSize: '2em', display: 'flex', textAlign: 'center' }}
                     repeat={Infinity}
                 />
             </motion.div>

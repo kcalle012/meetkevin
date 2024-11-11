@@ -23,13 +23,22 @@
     border-color: red;
     min-height: 30vh;
 }
-
-.intro {
-    fontSize: '2em';
-    display: 'flex';
-    textAlign: 'center';
-    
-    @media (max-width: 768px) {
-        font-size: '1em';
+@media (max-width: 768px) {
+        .intro {
+            span {
+                font-size: '2em';
+                font-weight: 500;
+            }
+        display: 'flex';
+        text-Align: 'center';
     }
+}
+.intro {
+    span {
+        font-size: '2em';
+        font-weight: 500;
+    }
+    display: 'flex';
+    text-Align: 'center';
+    
 }

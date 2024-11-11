@@ -13,6 +13,7 @@ const HelloMessage = () => {
             <motion.div className = "home"></motion.div>
             <motion.div className= "bottom">
                 <TypeAnimation
+                    className='intro'
                     sequence={[
                     // Same substring at the start will only be typed out once, initially
                         'Kevin Calle: Software Engineer',

@@ -23,3 +23,13 @@
     border-color: red;
     min-height: 30vh;
 }
+
+.intro {
+    fontSize: '2em';
+    display: 'flex';
+    textAlign: 'center';
+    
+    @media (max-width: 768px) {
+        font-size: '1em';
+    }
+}

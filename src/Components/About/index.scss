@@ -9,8 +9,9 @@
     margin-right: 100px;
 
     .headshot {
-        width: 500px;
-        height: 500px;
+        width: 100%;
+        max-width: 500px;   
+        height: auto;
         border-radius: 50%;
         object-fit: cover;
         object-position: left;

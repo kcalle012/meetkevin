@@ -39,7 +39,7 @@ const Header = () => {
     return (
         <div>
             <header className={menuOpen? "hidden": "header"}>
-                <Link to="/"><p>Meet Kevin</p></Link>
+                <Link to="/"><p className='logo'>Meet Kevin</p></Link>
                 <div className="menu" onClick={toggleMenu}>
                     &#9776;
                 </div>
@@ -109,22 +109,6 @@ const Header = () => {
             }
             </AnimatePresence>
         </div>
-
-
-        // <header className="header">
-        //     {/* <a href="/" className="logo">Meet Kevin</a>
-        //     <div className={`hamburger ${menuOpen ? 'open': ''}`} onClick={toggleMenu}>
-        //         &#9776;
-        //     </div>
-        //     <nav className={`nav-bar ${menuOpen ? 'open': ''}`}>
-        //         <div className="close-button" onClick={toggleMenu}>
-        //             &times;
-        //         </div>
-        //         <a href="/">Home</a>
-        //         <a href="/about">About</a>
-        //         <a href="/contact">Contact</a>
-        //     </nav> */}
-        // </header>
     )
 }
 

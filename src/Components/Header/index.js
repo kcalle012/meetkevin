@@ -51,16 +51,16 @@ const Header = () => {
                     variants={item}
                     initial={{height:0,opacity:0}}
                     animate={{height:"100vh",opacity:1}}
-                    transition={{delay:.3}}
+                    transition={{delay:.5}}
                     exit="exit"
                     className="menu-container">
                     <div className="btn-close" onClick={toggleMenu}>&times;</div>
                         <div className="a-link" onClick={()=>setMenuOpen(false)}>
                             <Link to="/">
                                 <motion.p
-                                    initial={{y:90,opacity:0}}
+                                    initial={{y:80,opacity:0}}
                                     animate={{y:0,opacity:1}}
-                                    transition={{duration:.4}}
+                                    transition={{delay:.6}}
                                     exit={{
                                         opacity:0,
                                         y:90,
@@ -74,9 +74,9 @@ const Header = () => {
                             <div className="a-link" onClick={()=>setMenuOpen(false)}>
                                 <Link to="/about">
                                     <motion.p
-                                    initial={{y:90,opacity:0}}
+                                    initial={{y:80,opacity:0}}
                                     animate={{y:0,opacity:1}}
-                                    transition={{delay:.4}}
+                                    transition={{delay:.5}}
                                     exit={{
                                         opacity:0,
                                         y:90,
@@ -91,9 +91,9 @@ const Header = () => {
                             <div className="a-link" onClick={()=>setMenuOpen(false)}>
                                 <Link to="/contact">
                                     <motion.p
-                                        initial={{y:90,opacity:0}}
+                                        initial={{y:80,opacity:0}}
                                         animate={{y:0,opacity:1}}
-                                        transition={{duration:.4}}
+                                        transition={{delay:.4}}
                                         exit={{
                                             opacity:0,
                                             y:90,

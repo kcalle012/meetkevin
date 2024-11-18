@@ -66,6 +66,7 @@
         }
         p:hover {
             color: #bdbdbd;
+            cursor: pointer;
         }
 
         +p {
@@ -84,6 +85,7 @@
             right: 20px;
             z-index: 15;
             position: absolute;
+            cursor: pointer;
         }
         @media (max-width:768px) {
             p {

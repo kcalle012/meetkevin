@@ -39,11 +39,6 @@
 
     }
 
-    .hidden {
-        display: none;
-
-    }
-
     .menu-container {
         @extend .dflex;
         position: fixed;

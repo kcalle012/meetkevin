@@ -31,22 +31,23 @@
 @media (max-width:768px){
     .container {
         height: 100vh;
-        display: block;
+        display: flex;
+        flex-direction: column;
         padding: 5%;
         text-align: center;
+        justify-content:center;
     }
     .img-container {
             margin: 0 auto;
     }
 
     .text-container {
-        font-size: 0.9em;
-        margin-top: 20px;
+        font-size: 0.80em;
+        margin-top: 10vh;
     }
     .headshot{
-        width: 40vw;
+        width: 100vw;
         aspect-ratio: 1/1;
-        max-width: 300px;
         height: auto;
         margin: 0 auto;
         object-position: center;

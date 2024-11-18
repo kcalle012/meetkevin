@@ -33,23 +33,26 @@
         height: 100vh;
         display: flex;
         flex-direction: column;
-        padding: 5%;
-        text-align: center;
-        justify-content:center;
+        text-align:justify;
+
     }
     .img-container {
-            margin: 0 auto;
+            margin: 20px auto;
+            max-width: 90%;
+            display: flex;
+            justify-content: center;
+            .headshot{
+                width: 90%;
+                height: auto;
+                border-radius: 50%;
+                aspect-ratio: 1/1;
+                margin: 0 auto;
+                object-position: center;
+                }
     }
 
     .text-container {
-        font-size: 0.80em;
-        margin-top: 10vh;
+        font-size: 2.7vw;
+        margin-top: 0vh;
     }
-    .headshot{
-        width: 100vw;
-        aspect-ratio: 1/1;
-        height: auto;
-        margin: 0 auto;
-        object-position: center;
-        }
 }

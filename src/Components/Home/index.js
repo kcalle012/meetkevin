@@ -3,6 +3,7 @@ import "./index.scss";
 import HelloMessage from "../HelloMessage";
 import About from "../About";
 import Projects from "../Projects";
+import Contact from "../Contact";
 
 const Home = () => {
 
@@ -11,6 +12,7 @@ const Home = () => {
       <HelloMessage/>
       <About/>
       <Projects/>
+      <Contact />
     </>
   );
 };

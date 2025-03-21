@@ -44,7 +44,7 @@
                         className="menu-container">
                         <div className="btn-close" onClick={toggleMenu}>&times;</div>
                             <div className="a-link" onClick={()=>setMenuOpen(false)}>
-                                <Link to="/">
+                                <a href="/">
                                     <motion.p
                                         initial={{y:80,opacity:0}}
                                         animate={{y:0,opacity:1}}
@@ -57,10 +57,10 @@
                                             delay:.6}
                                         }}>
                                     Home</motion.p>
-                                </Link>
+                                </a>
                                 </div>
                                 <div className="a-link" onClick={()=>setMenuOpen(false)}>
-                                    <Link to="/about">
+                                    <a href="#about">
                                         <motion.p
                                         initial={{y:80,opacity:0}}
                                         animate={{y:0,opacity:1}}
@@ -74,10 +74,10 @@
                                             }
                                         }}>
                                         About</motion.p>
-                                    </Link>
+                                    </a>
                                 </div>
                                 <div className="a-link" onClick={()=>setMenuOpen(false)}>
-                                    <Link to="/contact">
+                                    <a href="#contact">
                                         <motion.p
                                             initial={{y:80,opacity:0}}
                                             animate={{y:0,opacity:1}}
@@ -90,7 +90,7 @@
                                                 delay:.2}
                                             }}>
                                             Contact</motion.p>
-                                    </Link>
+                                    </a>
                                 </div>
                         </motion.div>
                     )

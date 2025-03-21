@@ -1,0 +1,51 @@
+.sectionTitle {
+    font-size: 3rem;
+}
+.projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+  
+}
+
+.projectsContainer {
+  width: 85%;
+  border: 5px solid #333333;
+  border-radius: 2rem;
+  padding: 5rem;
+  gap: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.projectContent {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+
+  .appImageContainer {
+    width: 800px;
+  }
+  img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+    object-fit: contain;
+  }
+
+  .description {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 90%;
+    h6 {
+      font-size: 1rem;
+    }
+    a {
+      text-decoration: none;
+      color: red;
+    }
+  }
+}

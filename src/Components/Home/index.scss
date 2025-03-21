@@ -1,12 +1,12 @@
 html, body {
-    scroll-snap-type: y mandatory;
+    scroll-snap-type: y;
     overflow-y: scroll;
-    height: 100%; /* Ensure the entire viewport height is used */
-    margin: 0; /* Remove any default margin for better alignment */
+    height: 100%; 
+    margin: 0;
 
 }
 
-section {
+.snap {
     scroll-snap-align: center; /* Ensures the section centers in the viewport */
     height: 100vh; /* Make each section span the full height of the viewport */
     justify-content: center;
@@ -21,5 +21,7 @@ section {
     background: black;
     z-index: 100;
 }
+
+
 
 

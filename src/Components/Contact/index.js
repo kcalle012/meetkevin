@@ -1,5 +1,9 @@
 import "./index.scss";
 import { useState, useEffect } from "react";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 function isValidEmail(email) {
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -16,7 +20,12 @@ const Contact = () => {
   });
 
   useEffect(() => {
-    if (!form.name || !form.email || !form.message || !isValidEmail(form.email)) {
+    if (
+      !form.name ||
+      !form.email ||
+      !form.message ||
+      !isValidEmail(form.email)
+    ) {
       setDisable(true);
     } else {
       setDisable(false);
@@ -56,12 +65,25 @@ const Contact = () => {
         <div className="contactContainer">
           <div className="contact">
             <h1>Get in Touch</h1>
-            <a href="mailto://kcalle012@gmail.com?subject=Hello%20Kevin&body=I%20want%20to%20contact%20you!">
-              kcalle012@gmail.com
-            </a>
-            <p>
-              +1 {"("}973{")"}680-6455
-            </p>
+            <div className="icons">
+              <a href="mailto://kcalle012@gmail.com?subject=Hello%20Kevin&body=I%20want%20to%20contact%20you!">
+                <FontAwesomeIcon icon={faEnvelope} size="3x" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/kevincalle/"
+                target={"_blank"}
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon icon={faLinkedin} size="3x" />
+              </a>
+              <a
+                href="https://github.com/kcalle012"
+                target={"_blank"}
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon icon={faGithub} size="3x" />
+              </a>
+            </div>
           </div>
 
           <form onSubmit={handleSubmit}>

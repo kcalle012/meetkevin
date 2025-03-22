@@ -48,7 +48,7 @@ const Header = () => {
             </div>
             <div className="a-link" onClick={() => setMenuOpen(false)}>
               <a
-                href={`${process.env.PUBLIC_URL}/resume-kevin-calle.pdf`}
+                href="/resume-kevin-calle.pdf"
                 target={"_blank"}
                 rel="noreferrer"
               >

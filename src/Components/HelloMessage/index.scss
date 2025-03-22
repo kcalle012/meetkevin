@@ -18,10 +18,16 @@
 .bottom {
     background-color: #fff;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     border-color: red;
     min-height: 30vh;
+    a {
+        text-decoration: none;
+        color:#333333;
+        margin-top: 3rem;
+    }
 }
 // @media (max-width: 768px) {
 //         .intro {

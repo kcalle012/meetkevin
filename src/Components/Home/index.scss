@@ -1,26 +1,10 @@
-html, body {
-    scroll-snap-type: y;
+html{
     overflow-y: scroll;
     height: 100%; 
     margin: 0;
 
 }
 
-.snap {
-    scroll-snap-align: center; /* Ensures the section centers in the viewport */
-    height: 100vh; /* Make each section span the full height of the viewport */
-    justify-content: center;
-}
-
-.progress {
-    position: fixed;
-    bottom: 0;
-    height: 5px;
-    left: 0;
-    right: 0;
-    background: black;
-    z-index: 100;
-}
 
 
 

@@ -49,3 +49,27 @@
     }
   }
 }
+
+@media (max-width: 768px){
+  .sectionTitle {
+    font-size: 2rem;
+  }
+  .projectsContainer {
+    padding: 3rem 1rem;
+  }
+  .projectContent {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    .appImageContainer{
+      width: 100%;
+    }
+    .description {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  }
+}

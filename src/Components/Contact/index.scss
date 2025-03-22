@@ -32,6 +32,7 @@
       height: 3rem;
       background-color: #333333;
       color: #ffffff;
+      border-radius: 0.5rem;
     }
 
     .submit:hover {
@@ -70,5 +71,35 @@
     a:hover{
         color: red;
         scale: 1.1;
+    }
+}
+
+@media (max-width: 768px) {
+    .contactContainer {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: unset;
+        form {
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            input, textarea,button {
+                width: 85%;
+            }
+        }
+        .contact h1 {
+            font-size: 2rem;
+        }
+        .contact {
+            width: 85%;
+            .icons {
+                margin-top: unset;
+                margin-bottom: 1.5rem;
+            }
+        }
+
     }
 }

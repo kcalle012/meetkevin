@@ -46,6 +46,7 @@ const HelloMessage = () => {
               textAlign: "center",
               fontFamily: "Poppins",
               fontWeight: 200,
+              color: "#ffffff",
             }}
             speed={50}
             repeat={Infinity}
@@ -71,13 +72,14 @@ const HelloMessage = () => {
               textAlign: "center",
               fontFamily: "Poppins",
               fontWeight: 200,
+              color: "#ffffff",
             }}
             speed={50}
             repeat={Infinity}
           />
         )}
         <a href="#about">
-          <FontAwesomeIcon icon={faChevronCircleDown} size="3x"/>
+          <FontAwesomeIcon icon={faChevronCircleDown} size="3x" />
         </a>
       </motion.div>
     </motion.div>

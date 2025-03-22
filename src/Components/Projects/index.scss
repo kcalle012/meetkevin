@@ -7,23 +7,30 @@
   justify-content: center;
   flex-direction: column;
   gap: 3rem;
+  color: #ffffff;
   
 }
 
 .projectsContainer {
   width: 85%;
-  border: 5px solid #333333;
+  border: 5px solid #ffffff;
   border-radius: 2rem;
   padding: 5rem;
   gap: 3rem;
   display: flex;
   flex-direction: column;
 }
-
+.projectContent:first-child{
+  border-top: unset;
+  padding-top: unset;
+}
 .projectContent {
   display: flex;
   flex-direction: row;
   gap: 5rem;
+  border-top: 2px white dashed;
+  padding-top: 6rem;
+
 
   .appImageContainer {
     width: 800px;
@@ -63,6 +70,7 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    padding-top: 1.5rem;
     .appImageContainer{
       width: 100%;
     }

@@ -4,11 +4,11 @@
     align-items: center;
     justify-content: center;
     height: 100vh; /* Full height */
-    background-color: #fff;
+    background-color: #333333;
 }
 
 .home {
-    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), 
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(51, 51, 51, 1)), 
                 url('../../Assets/Cuenca-Background.jpg') no-repeat;
     background-size: cover;
     background-position: center;
@@ -16,16 +16,17 @@
 }
 
 .bottom {
-    background-color: #fff;
+    background-color: #333333;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     border-color: red;
     min-height: 30vh;
+    padding-top: 2rem;
     a {
         text-decoration: none;
-        color:#333333;
+        color:rgba($color: #ffffff, $alpha: 0.5);
         margin-top: 1rem;
     }
 }

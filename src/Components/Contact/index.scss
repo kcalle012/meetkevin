@@ -101,7 +101,12 @@
       font-size: 2rem;
     }
     .contact {
-      width: 85%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 85%;
+        padding-right: unset;
+      border-right: unset;
       .icons {
         margin-top: unset;
         margin-bottom: 1.5rem;

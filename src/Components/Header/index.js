@@ -1,4 +1,4 @@
-import { React, useEffect, useState } from "react";
+import { React, useState } from "react";
 import "./index.scss";
 import { motion, AnimatePresence } from "framer-motion";
 import { Link } from "react-router-dom";
@@ -47,7 +47,11 @@ const Header = () => {
               &times;
             </div>
             <div className="a-link" onClick={() => setMenuOpen(false)}>
-              <a href="/resume-kevin-calle.pdf" target={"_blank"} rel="noreferrer">
+              <a
+                href={`${process.env.PUBLIC_URL}/resume-kevin-calle.pdf`}
+                target={"_blank"}
+                rel="noreferrer"
+              >
                 <motion.p
                   initial={{ y: 80, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}

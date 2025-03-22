@@ -122,25 +122,6 @@ const Header = () => {
                 </motion.p>
               </a>
             </div>
-            <div className="a-link" onClick={() => setMenuOpen(false)}>
-              <a href="#contact">
-                <motion.p
-                  initial={{ y: 80, opacity: 0 }}
-                  animate={{ y: 0, opacity: 1 }}
-                  transition={{ delay: 0.4 }}
-                  exit={{
-                    opacity: 0,
-                    y: 90,
-                    transition: {
-                      ease: "easeInOut",
-                      delay: 0.2,
-                    },
-                  }}
-                >
-                  Contact
-                </motion.p>
-              </a>
-            </div>
           </motion.div>
         )}
       </AnimatePresence>

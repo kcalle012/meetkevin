@@ -47,11 +47,7 @@ const Header = () => {
               &times;
             </div>
             <div className="a-link" onClick={() => setMenuOpen(false)}>
-              <a
-                href="/resume-kevin-calle.pdf"
-                target={"_blank"}
-                rel="noreferrer noopener"
-              >
+              <a href="/resume.pdf" target="_blank" rel="noreferrer noopener">
                 <motion.p
                   initial={{ y: 80, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}

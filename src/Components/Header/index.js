@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 import Modal from "@mui/material/Modal";
 import Box from "@mui/material/Box";
 import Resume from "../../Assets/kevin_calle_resume.pdf";
-
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const toggleMenu = () => {
